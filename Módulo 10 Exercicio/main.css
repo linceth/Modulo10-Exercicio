@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+    background-color: beige;
+}
+
+header {
+    padding: 24px 0;
+    margin-bottom: 24px;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 24px;    
+}
+
+#nome {
+    padding: 12px 110px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#email {
+    padding: 12px 110px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#cpf {
+    padding: 12px 110px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#telefone {
+    padding: 12px 110px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#logradouro {
+    padding: 12px 110px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#bairro {
+    padding: 12px 110px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#numero {
+    padding: 12px 110px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#cep {
+    padding: 12px 110px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input {
+    border: 2px solid black;
+    width: 100%;
+    justify-content: flex-start;  
+}
+
+.container {
+    max-width: 960px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    background-color: rgba(205, 133, 63, 0.4);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40%;
+    text-transform: uppercase;
+}
+
